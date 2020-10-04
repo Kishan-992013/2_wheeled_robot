@@ -1,0 +1,3 @@
+I used "libgazebo_ros_laser.so" plugin for sensors and "libgazebo_ros_diff_drive.so" plugin for wheels
+"libgazebo_ros_diff_drive.so" plugin allows ROS to publish velocity commands to the topic "/cmd_vel"
+"libgazebo_ros_laser.so" plugin publishes distance values to the following topics: "/sensor_front/laser/scan" "/sensor_right/laser/scan" "/sensor_left/laser/scan"
