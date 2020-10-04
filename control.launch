@@ -1,0 +1,6 @@
+<launch>
+ <node name="my_2wheel_bot" pkg="my_bot_control" type="my_2wheel_bot_node" output="screen"/>
+ <node name="sensor_front" pkg="my_bot_control" type="laser_front_node" output="screen"/>
+ <node name="sensor_right" pkg="my_bot_control" type="laser_right_node" output="screen"/>
+ <node name="sensor_left" pkg="my_bot_control" type="laser_left_node" output="screen"/>
+</launch>
